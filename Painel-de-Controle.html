@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGAA</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>PAINEL DE CONTROLE</h1>
+    <header>
+        <nav>
+            <a href="/">Painel de Controle</a>
+            <a href="/">Histórico</a>
+            <a href="/">Cadastro de Componentes</a>
+        </nav>
+    </header>
+    <br>_______________________________________________<br>
+
+    <h1>Perfil do Usuário
+        </h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiSf7RM8wxAO1vwa1K1TW4IXZ9_SD_6Q3SVA&usqp=CAU" alt="lobo">
+            <label for="nome"  >Nome:</label>
+            <input type="text" value="Tailson Alves" disabled="true" name="nome"/>
+            <label for="email"  >Email:</label>
+            <input type="email" value="tailson@ufc.com" disabled="true" name="email"/>
+            <br> 
+            <span>IRA: <b> 7.9</b></span> 
+            <br> 
+            <span>Cr Cursadas: <b>560 cr</b></span> 
+            <br> 
+            <label for="color-pick">Selecione uma cor de tema</label>
+     
+            <input type="color" name="color-pick">
+    
+    <br>_______________________________________________<br>
+    <br>
+    <div id="cursadas">
+    <h1>Disciplinas Cursadas</h1>
+
+    <ul>
+        <li>Tecnologias Web</li>
+        <li>Qualidade de Software</li>
+    </ul>
+    </div>
+    <br>_______________________________________________<br>
+    <br>
+    <div id="credito">
+        <h1>Relação de Créditos</h1>
+            <ul>
+            <li>Disciplinas obrigatorias (min: 300cr)_____ <input type="range" value="260" min="0" max="300" step="1"></li>
+            <li>Disciplinas eletivas (min: 300cr)________ <input type="range" value="50" min="0" max="400" step="1"></li>
+            <li>Horas de Estágio Obrigatório (min: 300cr)_<input type="range" value="130" min="0" max="280" step="1"></li>
+            <li>Horas Complementares (min: 300cr) _____<input type="range" value="260" min="0" max="300" step="1"></li>
+            <li>Horas de Extensão (min: 300cr)_________ <input type="range" value="300" min="0" max="500" step="1"></li>
+            <li>Horas de Programação (min: 300cr) _____ <input type="range" value="500" min="0" max="600" step="1"></li>
+    </ul>
+</div>   
+    
+</body>
+</html>
